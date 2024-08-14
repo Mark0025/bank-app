@@ -1,6 +1,6 @@
-import AuthForm from '@/components/ui/AuthForm'
+import AuthForm from '@/components/AuthForm'
 
-const SignUp = async () => {
+const SignIn = () => {
   return (
     <section className="flex-center size-full max-sm:px-6">
       <AuthForm type="sign-up" />
@@ -8,4 +8,4 @@ const SignUp = async () => {
   )
 }
 
-export default SignUp
+export default SignIn
