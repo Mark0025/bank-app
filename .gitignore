@@ -41,3 +41,12 @@ next-env.d.ts
 
 # Ignore large files
 my-app/node_modules/@next/swc-darwin-x64/next-swc.darwin-x64.node
+
+# Ignore node_modules
+node_modules/
+
+# Ignore build directories
+build/
+dist/node_modules/
+build/
+dist/
