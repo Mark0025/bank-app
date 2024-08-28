@@ -50,3 +50,15 @@ build/
 dist/node_modules/
 build/
 dist/
+
+# Ignore large files
+my-app/.next/cache/webpack/client-development-fallback/0.pack.gz
+my-app/.next/cache/webpack/client-development/12.pack.gz
+my-app/.next/cache/webpack/server-development/1.pack.gz
+my-app/.next/cache/webpack/server-development/13.pack.gz
+my-app/.next/server/vendor-chunks/plaid.js
+my-app/.next/static/chunks/main-app.js
+my-app/node_modules/@next/swc-darwin-x64/next-swc.darwin-x64.node
+my-app/node_modules/@sentry/cli/sentry-cli
+my-app/node_modules/plaid/dist/api.js
+my-app/node_modules/typescript/lib/typescript.js
